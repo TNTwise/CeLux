@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  PYTHON_VERSION: '3.13'
+  PYTHON_VERSION: '3.12'
   VCPKG_LIBRARY_LINKAGE: dynamic
 
 jobs:
