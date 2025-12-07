@@ -10,7 +10,7 @@ authors = [
     {name = "Nilas Tiago", email = "nilascontact@gmail.com"},
 ]
 description = "Lightspeed video decoding directly into tensors!"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 license = {text = "AGPL-3.0"}
 classifiers = [
     "Programming Language :: Python :: 3",
