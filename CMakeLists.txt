@@ -87,7 +87,7 @@ set(CELUX_FFMPEG_LIBS ${FFMPEG_LIBRARIES})
 set(CELUX_FFMPEG_INCS ${FFMPEG_INCLUDE_DIRS})
 
 if(CELUX_BUILD_PYTHON)
-  find_package(Python3 3.13 REQUIRED COMPONENTS Interpreter Development.Module)
+  find_package(Python3 3.12 REQUIRED COMPONENTS Interpreter Development.Module)
   message(STATUS "Python3: ${Python3_EXECUTABLE}")
   message(STATUS "Python3 includes: ${Python3_INCLUDE_DIRS}")
 
